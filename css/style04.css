@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+}
+
+/*Tipografia*/
+/*Atributos*/
+[name=paragrafo]{
+  font-size: 30px;
+  color: blue;
+}
+[name=paragrafo-2]{
+  color: red;
+}
+[name]{
+  color: green;
+}
+input[type=button]{
+  background-color: red;
+  color: #fff;
+  font-size: 20px;
+  padding:2px 30px;
+  border-radius: 20px;
+}

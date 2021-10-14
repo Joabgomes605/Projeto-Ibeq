@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/*Tipografia*/
+/*Cores e Background*/
+header{
+  width: 100%;
+  min-height: 600px;
+  background-image: url("../image/capa_intervalo-08.png");
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+}
+.logo{
+  width: 20%;
+  display: flex;
+}
+.logo h1{
+  width: 100%;
+  color: #fff;
+  padding-left: 10px;
+}
+.menu nav ul {
+  width: 60%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.menu nav ul li a{
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 50px;
+}
+.entrar-cadastrar{
+  width: 20%;
+  text-align: right;
+  padding:2px 10px;
+}
+.entrar-cadastrar a{
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+}
